@@ -1,10 +1,12 @@
 <html>
   <body>
-    <h1><mark>T W I T T E R   D E   L A   U C B</mark></h1>
+    <h1><mark>TWITER DE LA UCB</mark></h1>
+    <img src="catolica.png">;
     <form id="post-form">
       <b>
       <label for="primer-titulo">titulo del post:</label>
-      <input type="string" id="primer-titulo" />
+      <input type="string" id="primer-titulo" 
+             minlength="0" maxlength="50"/>
       <b><br>
       <label for="primer-detalle">contenido detallado del post:</label>
       <input type="string" id="primer-detalle" />
@@ -15,4 +17,5 @@
 
     <script type="module" src="./src/presenter.js"></script>
   </body>
+  <label>NOTA: mensaje de alerta a medias...</label>
 </html>
